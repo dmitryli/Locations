@@ -1,0 +1,15 @@
+1. User sign up service (from user perspective)
+1.1 input user email
+1.2 output - the user exists (user id) and becoming an active user and a link to user locations
+
+
+2. Verify user
+2.1 Checkin: Mobile App generates bar code with userid and location id 
+2.2 The device scans it and send to the server
+2.3 Output: user authorized or not
+
+3. Add guest
+3.1 Input: user id, location id, name, last name, email, organization
+3.2 Output: authorized or not and start and end time.
+
+4 Guest history: based on user id.
